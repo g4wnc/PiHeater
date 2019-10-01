@@ -18,6 +18,7 @@ def h_timer():
         target = nightTemp
     return target
 
+
 def thermostat(target):
     temp_now = sensor1.get_temperature()
     if temp_now > (target+1):
