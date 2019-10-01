@@ -9,11 +9,17 @@ This is a simple program to pair and test an Energenie mains socket.
 Use the program as follows:
 
 1 - Begin by mounting the Energenie PiMote radio board on the Raspberry Pi GPIO pins.
+
 2 - Power-up the Pi and go to the Programming menu and select Thonny Python IDE.
+
 3 - Open the PlugTest.py file in Thonny (you will find it in ~/PiHeater/).
+
 4 - Plug the Energie switchable socket ito a standard mains socket.
+
 5 - Press and hold the button until the LED flashes to indicate that the socket is in programming mode.
+
 6 - When the socket detects a transmission from the Pi, it will store the connection detail and start switching on and off.
+
 7 - Click the STop button in Thonny to stop the program.
 
 <b>PiHeater.py</b>
